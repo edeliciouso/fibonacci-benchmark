@@ -4,3 +4,45 @@ The Fibonacci Sequence is a series of numbers that gradually increases. The next
 There are two ways to calculate a Fibonacci Sequence. Iterative and Recursive.
 
 ## Iterative Method
+```c
+int fibonacciIterative(int N){
+    // iterative method
+    if (N ==0){
+        return 0;
+    } else if (N == 1){
+        return 1;
+    } else {
+        int num1 = 0;
+        int num2 = 1;
+        int output;
+        for (int i = 2; i <= N; i++){
+            output = num1 + num2;
+            num1 = num2;
+            num2 = output;
+        }
+        return output;
+    }
+}
+```
+
+## Recursive Method
+```c
+int fibonacciRecursive(int N){
+    // recursive method
+    if (N == 0){
+        return 0;
+    } else if (N == 1){
+        return 1;
+    } else {
+        return fibonacciRecursive(N-1) + fibonacciRecursive(N-2);
+    }
+}
+```
+
+## How to run
+```c
+make run
+./main_test.exe
+```
+
+## Output
