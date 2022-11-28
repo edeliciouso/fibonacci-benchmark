@@ -41,7 +41,7 @@ int fibonacciRecursive(int N){
 ```
 
 ## How to run
-```c
+```sh
 make run
 ./main_test.exe
 ```
