@@ -4,7 +4,7 @@ The Fibonacci Sequence is a series of numbers that gradually increases. The next
 
 There are two ways to calculate a Fibonacci Sequence. Iterative and Recursive.
 
-## Iterative Method
+### Iterative Method
 ```c
 int fibonacciIterative(int N){
     // iterative method
@@ -26,7 +26,7 @@ int fibonacciIterative(int N){
 }
 ```
 
-## Recursive Method
+### Recursive Method
 ```c
 int fibonacciRecursive(int N){
     // recursive method
@@ -40,11 +40,35 @@ int fibonacciRecursive(int N){
 }
 ```
 
-## How to run
+### How to run
 ```sh
 make run
 ./main_test.exe
 ```
 
-## Output
-![Run](./images/Run Results.png)
+### Output
+![Run](https://github.com/edeliciouso/fibonacci-benchmark/blob/main/images/Run%20Results.png)
+
+#
+
+## Time Complexity
+
+Both of these results have the same N value, 30
+
+### Iterative Run and Output
+![Iterative Time](https://github.com/edeliciouso/fibonacci-benchmark/blob/main/images/Time%20Taken%20Iterative.png)
+
+### Recursive Run and Output
+![Recursive Time](https://github.com/edeliciouso/fibonacci-benchmark/blob/main/images/Time%20Taken%20Recursive.png)
+
+## Space Complexity
+
+### Results
+
+Both of these results have the same N value, 3000
+
+![space complexity](https://github.com/edeliciouso/fibonacci-benchmark/blob/main/images/Memory%20Taken.png)
+
+## Conclusion
+
+Based on these two results, it's clear that the Iterative method is more effective, as it requires less time and memory to run. It has lesser time complexity and space complexity compared to the Recursive method.
