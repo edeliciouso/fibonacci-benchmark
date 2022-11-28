@@ -47,4 +47,4 @@ make run
 ```
 
 ## Output
-![Run Results](./images/Run Results.png)
+![Run](./images/Run Results.png)
